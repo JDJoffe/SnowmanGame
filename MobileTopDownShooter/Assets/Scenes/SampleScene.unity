@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.43977278, g: 0.48820204, b: 0.5684195, a: 1}
+  m_IndirectSpecularColor: {r: 0.4397727, g: 0.48820233, b: 0.56842, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -309,6 +309,75 @@ Transform:
   m_Father: {fileID: 1831025092}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &529881925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5608081469651368945, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_Name
+      value: Snowball-Large 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774577030795150073, guid: b38604dfe4d1bad49a430f85be3f20e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b38604dfe4d1bad49a430f85be3f20e2, type: 3}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,11 +415,11 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 2
+  m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_GateFitMode: 2
-  m_FocalLength: 50
+  m_FocalLength: 37.152718
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -359,9 +428,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 26.991467
-  orthographic: 0
-  orthographic size: 5
+  field of view: 35.8
+  orthographic: 1
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -384,13 +453,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.60876137, y: 0, z: 0, w: 0.7933534}
-  m_LocalPosition: {x: 0, y: 14.73, z: -3.53}
+  m_LocalRotation: {x: 0.2787396, y: 0, z: 0, w: 0.9603667}
+  m_LocalPosition: {x: 0, y: 12.16, z: -12.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 32.37, y: 0, z: 0}
 --- !u!1 &612365102
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,8 +663,8 @@ GameObject:
   - component: {fileID: 1104499323}
   - component: {fileID: 1104499322}
   m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
+  m_Name: snowplane
+  m_TagString: snowplane
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -645,7 +714,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac070498fa585694eb194a3d3ee69d74, type: 2}
+  - {fileID: 2100000, guid: 660495299f9d43549ab52842c0e7801d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -797,7 +866,7 @@ MonoBehaviour:
   - {fileID: 511789240}
   - {fileID: 1319260197}
   - {fileID: 2016151415}
-  snowBall: {fileID: 6517189477734920707, guid: 8f58275bbcfec7b4294f224f09ab132c,
+  snowBall: {fileID: 5608081469651368945, guid: b38604dfe4d1bad49a430f85be3f20e2,
     type: 3}
   num: 0
   spawnTimer: 0
